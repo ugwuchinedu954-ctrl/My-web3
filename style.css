@@ -1,168 +1,276 @@
-body{ 
-background-size: 10%;
-background-color: rgba(81, 79, 79, 0.977);
-border-color: rgb(0, 0, 0);
-border-radius: 30px;
-}
-.login{
- background:rgb(12, 0, 1);
- width: 400px;
- margin: auto;
- position: relative;
-color:#ffffff;
-text-decoration:none;
-text-align: center;
-box-shadow: 0px 0px 30px rgb(56, 17, 17);
-backdrop-filter: blur(3px);
-border: 2px solid goldenrod;
-border-radius: 80px;
-transition: height .2s ease;
-}
-label:hover{
-    color:yellow;
-}
-.login input {
-    position: relative;
-    background-color: rgba(68, 56, 56, 0.725)   ;
-    color:rgb(109, 255, 47);
-    border: none;
-    width: 350px;
-    height: 25px;
-    border-radius: 15px;
-    border-bottom: 3px solid rgb(31, 26, 26);
-    margin: 20px 0;
-}
-.login label{
-    position: relative;
-    top: 50%;
-    left: 5px;       
-}
-.button{
-    text-align: center
-}
-.button input{
-    width: 100px;
-}
-.button :hover{ 
-background-color: black;
-color: blue;
-border-radius: 15px;
-width: 100px;
-font-size: 20px;
-
-}
-.mi{
-text-align:center;
-
-margin: auto;
-}
- .wo{
-
-text-decoration: solid;
-color: blue;
-font-size: 25px;
-text-align: center;
-
-    }
+body{
+  background-image: url(images.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
     
-   .box3 input{
-    width: 10px;
-  
-   }
-  
-
-.box3 label{
-    padding-right: 50px;
-    text-decoration: none;
-    
-}
-
-.box3 :hover{
    
-    color: orange;
 }
+.kalu {
+  background-color: black;
+  padding-bottom: 2px;
+  font-size: 30px;
+  font-size: 20px;
+font-weight: 500;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: darkorange;
+width: 76.8em;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+.kalu img{
+  width: 2.5em;
+  border-radius: 2em;
+}
+.oj{
+  font-size: 40px;
+  color: red;
+  font-weight: 400;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
- #register {
-    background-color: rgb(12, 0, 1);
-    width: 400px;
- margin: auto;
- position: relative;
-color:#ffffff;
-text-decoration:none;
-text-align: center;
-backdrop-filter: blur(3px);
-border: 1px solid goldenrod;
-border-radius: 80px;
 }
-#register label{
- margin: auto;
-color:#ffffff;
-text-align: center;
+.Oti{
+  position: absolute;
+  color: white;
+  top: 2em;
+  right: 5em;
+  flex-direction: row;
+  display: flex;
+
 }
+.Eme{
+  color: orange;
+}
+.Eme option{
+  text-align: center;
+}
+.Ama{
+  color: orange;
+}
+.Ama option{
+  text-align: center;
   
-#register label:hover{
-    color:yellow;   
 }
-#register input{   
-    background-color: rgba(68, 56, 56, 0.725)   ;
-    color:rgb(116, 255, 47);
-    border: none;
-    width: 350px;
-    height: 30px;
-    border-radius: 15px;
-    border-bottom: 2px solid rgb(31, 26, 26);
-    margin: 20px 0;
-    text-decoration: none;
+.igwe{
+  background-color: transparent;
+
+}
+.Aba h3{
+  font-size: 30px;
+  text-transform: uppercase;
+   font-family: 'Courier New', Courier, monospace;
+   margin-top: 5em;
+   margin-left: 3em;
+   color: chartreuse;
+}
+.os{font-size: 50px;
+
+}
+.igwe p{
+  font-size: 20px;
+  font-weight: bolder;
+  font-style: italic;
+  margin-left: 5em;
+  color: whitesmoke;
+}
+.igwe audio{
+  margin-left: 20em;
+  margin-top: 2em;
+}
+.obi{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  color: rgb(255, 0, 55);
+}
+.ibiam p{
+  margin-top: 4em;
+  margin-left: 20em;
+  color: white;
+  
+}
+.Mba{
+  color: white;
+  margin-left: 5em;
+  font-style: italic;
+
 }
 
-#register h1{
-    color: blue;
-    font-size: 25px;
-    text-align: center;
-       }   
-#box4 input{
-    width: 10px;
-   text-align: center;
-   background: transparent;
-   }
-#box4 a{
-    padding-right: 25px;
-    text-decoration: none;
-    background: transparent;
-}   
-#box4 :hover{
-    color: orange;
+
+.ada{
+  height: 100%;
+  top: 0;
+  right: 50;
+  width: calc(100%-58%);
+   
+  position: absolute;
+  
+  
 }
-#button{
-    text-align: center
-}
-#button input{
-    width: 100px;
-}
-#button :hover{ 
-background-color: black;
-color: blue;
-border-radius: 15px;
-width: 100px;
-font-size: 20px;
-#me a{
-    background:transparent;
-    border: none;
-    color: blue;
-    font-size: 20px;
+.ada .come{
+    background-color: rgba(165, 42, 42, 0.120);
+     background-size: cover;
     margin: auto;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+  height: fit-content;
+  width: 400px;
+  text-align: center;
+  border-radius: 5%;
+    padding-bottom: 50px;   
+    position: absolute;
+    justify-content: center;
+     margin-top: 90px;
+     
 }
-#me{
+.container{
+   text-align: center;
+   color: rgba(255, 0, 166, 0.852);
+    box-sizing: border-box;
     text-align: center;
+   
+}
+.container label{
+    color: white;
+}
+.container label:hover{
+    color: orange;
 }
 
-
-
-
- 
+.container p{
+    color: white
     
+}
+.container img{
+    width: 4em;
+    border-radius: 2em;   
+}
+.container input{
+    padding-right: 25%;
+    padding-bottom: 5%;
+    color: gold;
+    background-color: rgb(61, 58, 58);
+       border-radius: 5%;
+    border-color: yellowgreen;
+    
+}
+.container a{
+    color: white;
    
+}
+.container a:hover{
+    color: red;
+
+}
+.scontainer{
+    padding-right: 50%;
+    color: white;
+   
+}
+ .mcontainer{
+    text-align: center;
     
 
+  }
+  .mcontainer p{
+    color: white;
+  }
+  .ada .edu{
+    background-color: rgba(165, 42, 42, 0.120);
+     background-size: cover;
+    margin: auto;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+  height: fit-content;
+  width: 400px;
+  text-align: center;
+  border-radius: 5%;
+  padding-bottom: 50px;
+    flex-direction: 50px;
+    justify-content: center;
+   transform: translateX(400px);
+   position: absolute;
+   margin-top: 50px;
+   
+  }
 
+  .stone h1{
+    color: rgba(255, 0, 166, 0.852);
+  }
+  .stone p{
+    color: white;
+  }
+  .stone img{
+   width: 4em;
+    border-radius: 2em;   
 
+  }
+  .pstone label{
+    color: white;
+  }
+  .pstone label:hover{
+    color: orange;
+  }
+  .pstone input{
+    padding-right: 25%;
+    padding-bottom: 5%;
+    color: gold;
+    background-color: rgb(61, 58, 58);
+    border-radius: 5%;
+    border-color: yellowgreen;
+    
+  }
+  button{
+    background-color: black;
+  }
+  .scontainer button{
+    color: orange;
+  }
+  .mcontainer button{
+    color: yellow;
+    
+  }
+ button:hover{
+  color: limegreen;
+
+  } 
+  .sstone{
+    padding-right: 48%;
+  }
+  .sstone button{
+    color: red;
+  }
+  .sstone button:hover{
+  color: blue;
+  }
+  .mstone p{
+color: white;
+  }
+  .mstone button{
+    color: blue;
+  }
+  .mstone button:hover{
+    color: greenyellow;
+  }
+.ada .come{
+ 
+ transform: translateX(-800px); 
+ transition: transform: 0.6 ease;
+ transition-delay: .0.1s;
+}
+.ada.active .come{
+  transform: translateX(800px);
+  transition-delay: 0s;
+}
+.ada .edu{
+  transform: translateX(800px); 
+ transition: transform: 0.6 ease;
+ transition-delay: .0s;
+}
+.ada.active .edu{
+  transform: translateX(-800px);
+  transition-delay: .0.1s;
+}
